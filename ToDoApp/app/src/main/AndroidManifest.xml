@@ -10,14 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Todopac">
 
-        <activity android:name="com.example.ToDoApp.MainActivity">
+        <activity android:name="com.example.ToDoApp.HostActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.ToDoApp.CreateTaskActivity"/>
+
+        <activity android:name="com.example.ToDoApp.MainActivity">
+
+        </activity>
+        <activity android:name="com.example.ToDoApp.CreateTaskActivity" />
     </application>
 
 </manifest>
